@@ -24,6 +24,13 @@ public class Metodi {
         rubrica.containsValue(numero);
     }
 
-    ;
-
+    //    QUARTO METODO
+    public void cercaPerNome(String nome) {
+        rubrica.get(nome);
+    }
+    
+    //    QUINTO METODO
+    public void stampaTutti(HashMap<String, Integer> rubrica) {
+        System.out.println(rubrica.toString());
+    }
 }
