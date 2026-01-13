@@ -3,11 +3,11 @@ package Esercizio3;
 import java.util.HashMap;
 
 public class Metodi {
-    public HashMap<String, Integer> rubrica;
+    public HashMap<String, Integer> rubrica = new HashMap<>();
 
-    public void Rubrica() {
-        this.rubrica = rubrica;
-    }
+//    public void Rubrica() {
+//        this.rubrica = rubrica;
+//    }
 
     //    PRIMO METODO
     public void generaElemento(String name, int numeroDiTelefono) {
