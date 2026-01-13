@@ -12,7 +12,7 @@ public class Es1 {
 
         int numElementi = 0;
 
-        System.out.println("Inserisci un numero che corrisponderà al numero di elementi del da inserire: ");
+        System.out.println("Inserisci un numero che corrisponderà al numero di elementi del da inserire:");
 
         try {
             numElementi = Integer.parseInt(input.nextLine());
