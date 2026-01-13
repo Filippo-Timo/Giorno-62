@@ -6,7 +6,7 @@ public class Metodi {
     public HashMap<String, Integer> rubrica;
 
     public void Rubrica() {
-        rubrica = new HashMap<>();
+        this.rubrica = rubrica;
     }
 
     //    PRIMO METODO
@@ -28,7 +28,7 @@ public class Metodi {
     public void cercaPerNome(String nome) {
         rubrica.get(nome);
     }
-    
+
     //    QUINTO METODO
     public void stampaTutti(HashMap<String, Integer> rubrica) {
         System.out.println(rubrica.toString());
