@@ -20,7 +20,7 @@ public class Es1 {
             System.out.println("Il valore inserito non è valido");
         }
 
-        for (int i = 0; i <= numElementi; i++) {
+        for (int i = 0; i < numElementi; i++) {
             System.out.println("Ora inserisci una parola da inserire nel set: ");
             String parola = input.nextLine();
             if (set.contains(parola)) paroleRipetute.add(parola);
